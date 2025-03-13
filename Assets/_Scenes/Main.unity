@@ -855,13 +855,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 923583800}
   m_HandleRect: {fileID: 1453407262}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 15
+  m_MinValue: -10
+  m_MaxValue: 25
   m_WholeNumbers: 0
-  m_Value: 10
+  m_Value: 2
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 511674247}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: UpdatePlayerMaxSpeed
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &286123808
 GameObject:
   m_ObjectHideFlags: 0
